@@ -32,6 +32,7 @@ Suppression du fichier tampon
 FIN DU SCRIPT (demande à l'utilisateur s'il souhaite reformater un nouveau fichier ou quitter le script)
 
 - Ajout/Suppression de contenu : Choix du sens de reformatage - Ajout de contenu :[def etape4a()] , Suppression incluant le délimiteur :[def etape4b()] , Suppression en conservant le délimiteur :[def etape4c()]
+
 Suite de l'étape 3a et 3b, l'utilisateur défini le sens du reformatage, avant ou après le délimiteur puis le nom du nouveau fichier qui contiendra les nouvelles valeurs.
 Suppression du fichier tampon
 FIN DU SCRIPT (demande à l'utilisateur s'il souhaite reformater un nouveau fichier ou quitter le script)
