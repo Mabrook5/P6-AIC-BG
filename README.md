@@ -42,13 +42,31 @@ Suppression du fichier tampon
 
 FIN DU SCRIPT (demande à l'utilisateur s'il souhaite reformater un nouveau fichier ou quitter le script)
 
-## Ajout/Suppression de contenu : Choix du sens de reformatage - Ajout de contenu :[def etape4a()] , Suppression incluant le délimiteur :[def etape4b()] , Suppression en conservant le délimiteur :[def etape4c()]
+## Choix du sens de reformatage 
 
-Suite de l'étape 3a et 3b, l'utilisateur défini le sens du reformatage, avant ou après le délimiteur puis le nom du nouveau fichier qui contiendra les nouvelles valeurs.
+- Ajout de contenu :[def etape4a()] 
+
+L'utilisateur défini le sens du reformatage, avant ou après le délimiteur puis le nom du nouveau fichier qui contiendra les nouvelles valeurs.
 
 Suppression du fichier tampon
 
 FIN DU SCRIPT (demande à l'utilisateur s'il souhaite reformater un nouveau fichier ou quitter le script)
 
-Note : 
+- Suppression incluant le délimiteur :[def etape4b()] 
+
+L'utilisateur défini le sens du reformatage, avant ou après le délimiteur puis le nom du nouveau fichier qui contiendra les nouvelles valeurs.
+
+Suppression du fichier tampon
+
+FIN DU SCRIPT (demande à l'utilisateur s'il souhaite reformater un nouveau fichier ou quitter le script)
+
+- Suppression en conservant le délimiteur :[def etape4c()]
+
+L'utilisateur défini le sens du reformatage, avant ou après le délimiteur puis le nom du nouveau fichier qui contiendra les nouvelles valeurs.
+
+Suppression du fichier tampon
+
+FIN DU SCRIPT (demande à l'utilisateur s'il souhaite reformater un nouveau fichier ou quitter le script)
+
+## Note : 
 Un message particulier "Vous avez quitté volontairement le script !" est affiché quand l'utilisateur ferme volontairement le script (exemple : CTRL+C) et le fichier tampon est alors supprimé s'il a été créé durant le script non abouti.
