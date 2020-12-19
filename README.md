@@ -9,10 +9,12 @@ Le script est codé en python et permet à un utilisateur via une suite d'action
 Le menu principal permet de choisir le type de fichier à travailler
 
 ## Choix du fichier ["def etapecsv()"] et ["def etapetxt()"]
+
 Une fenêtre s'ouvre afin de choisir le fichier qui est restreint suivant l'extension choisie (.csv ou .txt).
 Un fichier tampon est alors créé afin de reformater le contenu.
 
 - Choix de la colonne du tableau csv [def etapecsvbis()]
+  
   Pour le .csv une étape supplémentaire est requise afin de choisir la colonne et ainsi en extraire le contenu.
 
 ## Choix du délimiteur [def etape2()]
