@@ -10,9 +10,8 @@ Le menu principal permet de choisir le type de fichier à travailler
 
 ## Choix du fichier ["def etapecsv()"] et ["def etapetxt()"]
 
-Une fenêtre s'ouvre afin de choisir le fichier qui est restreint suivant l'extension choisie (.csv ou .txt).
-
-Un fichier tampon est alors créé afin de reformater le contenu.
+<p>Une fenêtre s'ouvre afin de choisir le fichier qui est restreint suivant l'extension choisie (.csv ou .txt).
+<p>Un fichier tampon est alors créé afin de reformater le contenu.
 
 - Choix de la colonne du tableau csv [def etapecsvbis()]
   
