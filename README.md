@@ -4,36 +4,36 @@
 
 Le script est codé en python et permet à un utilisateur via une suite d'action demandée par le script de reformater les lignes d'une colonne d'un fichier .csv ou les lignes d'un fichier .txt
 
-## Menu principal ["def menu()"]
+## Menu principal <strong>["def menu()"]</strong>
 
 Le menu principal permet de choisir le type de fichier à travailler
 
-## Choix du fichier ["def etapecsv()"] et ["def etapetxt()"]
+## Choix du fichier <strong>["def etapecsv()"]</strong> et <strong>["def etapetxt()"]</strong>
 
-<p>Une fenêtre s'ouvre afin de choisir le fichier qui est restreint suivant l'extension choisie (.csv ou .txt).</p>
-<p>Un fichier tampon est alors créé afin de reformater le contenu.</p>
+Une fenêtre s'ouvre afin de choisir le fichier qui est restreint suivant l'extension choisie (.csv ou .txt).
+Un fichier tampon est alors créé afin de reformater le contenu.
 
-- Choix de la colonne du tableau csv [def etapecsvbis()]
+- Choix de la colonne du tableau csv <strong>[def etapecsvbis()]</strong>
   
   Pour le .csv une étape supplémentaire est requise afin de choisir la colonne et ainsi en extraire le contenu.
 
-## Choix du délimiteur [def etape2()]
+## Choix du délimiteur <strong>[def etape2()]</strong>
 
 L'utilisateur doit choisir une valeur (un caractère ou suite de caractères) qui servira de délimiteur pour le reformatage.
 
-## Choix du type de reformatage [def etape3()]
+## Choix du type de reformatage <strong>[def etape3()]</strong>
 
 L'utilisateur a le choix d'ajouter, supprimer ou modifier du contenu.
 
-  - Choix du contenu à ajouter [def etape3a()]
+  - Choix du contenu à ajouter <strong>[def etape3a()]</strong>
 
 Si le choix est d'ajouter du contenu, l'utilisateur définit ce qu'il souhaite ajouter.
 
-  - Inclusion ou non du délimiteur [def etape3b()]
+  - Inclusion ou non du délimiteur <strong>[def etape3b()]</strong>
 
 Si le choix est de supprimer du contenu, l'utilisateur définit d'inclure ou non le délimiteur dans la suppression.
 
-- Modification de contenu [def etape3c()]
+- Modification de contenu <strong>[def etape3c()]</strong>
 
 Si le choix est de modifier du contenu, l'utilisateur définit ce qu'il souhaite modifier puis le nom du nouveau fichier qui contiendra les nouvelles valeurs.
 
@@ -43,7 +43,7 @@ FIN DU SCRIPT (demande à l'utilisateur s'il souhaite reformater un nouveau fich
 
 ## Choix du sens de reformatage 
 
-- Ajout de contenu :[def etape4a()] 
+- Ajout de contenu :<strong>[def etape4a()] </strong>
 
 L'utilisateur défini le sens du reformatage, avant ou après le délimiteur puis le nom du nouveau fichier qui contiendra les nouvelles valeurs.
 
@@ -51,7 +51,7 @@ Suppression du fichier tampon
 
 FIN DU SCRIPT (demande à l'utilisateur s'il souhaite reformater un nouveau fichier ou quitter le script)
 
-- Suppression incluant le délimiteur :[def etape4b()] 
+- Suppression incluant le délimiteur :<strong>[def etape4b()] </strong>
 
 L'utilisateur défini le sens du reformatage, avant ou après le délimiteur puis le nom du nouveau fichier qui contiendra les nouvelles valeurs.
 
@@ -59,7 +59,7 @@ Suppression du fichier tampon
 
 FIN DU SCRIPT (demande à l'utilisateur s'il souhaite reformater un nouveau fichier ou quitter le script)
 
-- Suppression en conservant le délimiteur :[def etape4c()]
+- Suppression en conservant le délimiteur :<strong>[def etape4c()]</strong>
 
 L'utilisateur défini le sens du reformatage, avant ou après le délimiteur puis le nom du nouveau fichier qui contiendra les nouvelles valeurs.
 
