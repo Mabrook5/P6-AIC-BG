@@ -48,8 +48,6 @@ try: # englobe l'intégralité du script pour quitter proprement le script en ca
         " ***************************************\n")
         data = pd.read_csv(fichiersource, sep = ';', header = 0) # ajoute tout le contenu du csv dans une variable
         #print(data) # affiche le contenu du fichier csv source
-        #print("--------------") # affiche le contenu du fichier csv source
-        #data2 = data.values
         nbcolonne = len(data.columns)
         nblignes = len(data.index)
         print("Votre fichier .csv comporte", nbcolonne,"colonnes et", nblignes,"lignes\n") #nombre de colonnes et lignes du .csv
